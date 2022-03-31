@@ -1,0 +1,24 @@
+{
+  "name": "fispoc",
+  "version": "1.0.0",
+  "description": "Nodejs Application to connect to mongo atlas to run the scheduler data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/core/Controller/api.js set gittoken=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V&&set giturl=https://api.github.com",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vijam",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.26.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.2.3",
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
